@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-
+      <Modal />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Engagement&amp;display=swap"></link>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&amp;display=swap"></link>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Niconne&amp;display=swap"></link>
@@ -28,13 +28,14 @@ function App() {
         <Navbar />
         <Header />
         <main>
+          
           <BrideGroom />
           <TheDate />
           <Gallery />
           <PhotoSlider/>
           <Payment/>
           <Greeting />
-          <Modal />
+          
         </main>
         <Footer />
       </div>
