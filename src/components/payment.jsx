@@ -35,7 +35,7 @@ export default function Payment(){
         }
       })
       await navigator.clipboard.writeText(copyMe);
-      alert('Copied!');
+      // alert('Copied!');
       setCopySuccess('Copied!');
     } catch (err) {
       setCopySuccess('Failed to copy!');
