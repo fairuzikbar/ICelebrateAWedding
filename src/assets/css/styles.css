@@ -1,0 +1,34 @@
+header {
+}
+
+.scroll-container {
+  /* max-width: 100px; */
+  max-height: 400px; /* Set a maximum height to enable vertical scrolling */
+  overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+.content {
+  
+  min-height: 100%; /* Ensures the content takes up the full height of the container */
+}
+
+
+
+.greeting-content .greeting-item {
+  max-height: 200px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
+.text-divider, .notext-divider, .text-divider-right {
+  display: flex;
+  align-items: center;
+  --text-divider-gap: 1rem;
+}
+
+.greeting-content .list-greeting .greeting-ago {
+  font-weight: 400;
+  font-size: 10px;
+  color: #7f91a2;
+}

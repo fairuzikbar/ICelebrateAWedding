@@ -1,0 +1,22 @@
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+}
+
+.fi {
+  font-size: 25px;
+  color: black;
+}
+
+.fi-pd {
+  padding-right: 5px;
+}
+
+.form-check-input:checked {
+  background-color: black;
+  border-color: black;
+}
+
+.form-check-input:focus {
+  border-color: grey;
+  box-shadow: 0 0 .25rem rgba(128,128,128, .25);
+}
+
