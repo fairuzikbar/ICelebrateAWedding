@@ -1,7 +1,7 @@
 export default function TheDate(){
     return(
         <>
-          <section id="theDate" className="py-5">
+          <section id="theDate" className="py-5" style={{backgroundColor:"#000000", color:"#ffffff"}}>
       <div className="container">
         <h1 className="fw-bold text-center" style={{textAlign: 'center', fontFamily: 'Montserrat, sans-serif'}}>Save the Date</h1>
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">

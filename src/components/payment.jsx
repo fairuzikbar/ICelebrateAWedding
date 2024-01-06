@@ -44,7 +44,7 @@ export default function Payment(){
 
     return(
         <>
-          <section className="py-5">
+          <section className="py-5" style={{backgroundColor:"#000000", color:"#ffffff"}}>
             <div className="container">
               <h1 className="fw-bold text-center" style={{textAlign: 'center', fontFamily: 'Montserrat, sans-serif'}}>Wedding Gift</h1>
               <p className="text-center" style={{fontFamily: 'Montserrat, sans-serif'}}>Tunjukkan kekayaan Anda di sini</p>

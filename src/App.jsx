@@ -10,6 +10,7 @@ import Footer from './components/footer'
 import Modal from './components/modal'
 import PhotoSlider from './components/photoSlider'
 import Payment from './components/payment'
+import ClosingStatement from './components/closingStatement'
 
 function App() {
 
@@ -35,7 +36,7 @@ function App() {
           <PhotoSlider/>
           <Payment/>
           <Greeting />
-          
+          <ClosingStatement/>
         </main>
         <Footer />
       </div>
