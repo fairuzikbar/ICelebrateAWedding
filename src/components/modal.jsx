@@ -24,6 +24,8 @@ export default function Modal(){
     modal.style.display = 'block';
   };
 
+  document.addEventListener('DOMContentLoaded', handleLoad);
+
   const closeModal = () => {
     const modal = document.getElementById('invite');
     modal.classList.remove('show');
