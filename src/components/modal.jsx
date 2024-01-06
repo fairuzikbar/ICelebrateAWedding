@@ -3,10 +3,17 @@ import ModalBg from "../assets/img/20230624_0002_01.jpg"
 
 export default function Modal(){
   useEffect(() => {
-    window.addEventListener('shown.bs.modal', handleLoad);
+    if (document.readyState === "complete") {
+      handleLoad
+      console.log('readySate')
+    } else {
+      window.addEventListener('load', handleLoad);
+      console.log('event here')
+    }
+    // window.addEventListener('load', handleLoad);
 
     return () => {
-      window.removeEventListener('shown.bs.modal', handleLoad);
+      window.removeEventListener('load', handleLoad);
     };
   }, []);
 
