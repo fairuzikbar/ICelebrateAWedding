@@ -56,14 +56,14 @@ export default function BrideGroom(){
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
           <div className="col d-flex flex-column justify-content-center align-items-center my-2"><img style={{width: '180px', height: '180px', objectFit: 'cover', borderRadius: '90px'}} src={Afra} />
             <p className="text-center" style={{fontFamily: 'Sacramento, serif', fontSize: '36px', marginTop: '16px', marginBottom: '0px'}}>Pramaisi Afra Maulidita</p>
-            <p className="text-center" style={{fontFamily: 'Montserrat, sans-serif'}}>Putri bapak Taroso dan ibu Windi Nurhayati</p>
+            <p className="text-center" style={{fontFamily: 'Montserrat, sans-serif'}}>Putri dari <br/> Bapak Taroso & Ibu Windi Nurhayati</p>
           </div>
           <div className="col d-print-none d-sm-none d-md-none d-lg-none d-xl-none d-xxl-none">
             <hr style={{borderWidth: '2px', borderStyle: 'solid'}} />
           </div>
           <div className="col d-flex flex-column justify-content-center align-items-center my-2"><img style={{width: '180px', height: '180px', objectFit: 'cover', borderRadius: '90px'}} src={Ikbar} />
             <p className="text-center" style={{fontFamily: 'Sacramento, serif', fontSize: '36px', marginTop: '16px', marginBottom: '0px'}}>Fairuz Ikbar Wikantyo</p>
-            <p className="text-center" style={{fontFamily: 'Montserrat, sans-serif'}}>Putra bapak Winarno dan ibu Fathonah Budiasih</p>
+            <p className="text-center" style={{fontFamily: 'Montserrat, sans-serif'}}>Putra dari <br/> Bapak Winarno & Ibu Fathonah Budiasih</p>
           </div>
         </div>
       </div>

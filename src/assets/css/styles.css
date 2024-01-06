@@ -32,3 +32,8 @@ header {
   font-size: 10px;
   color: #7f91a2;
 }
+
+.img-slider {
+  padding-right: 1px;
+  padding-left: 1px;
+}

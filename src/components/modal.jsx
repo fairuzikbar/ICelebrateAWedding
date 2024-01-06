@@ -13,6 +13,7 @@ export default function Modal(){
   const handleLoad = () => {
     const modal = document.getElementById('invite');
     modal.classList.add('show');
+    console.log('harusnya show')
     modal.style.display = 'block';
   };
 
@@ -21,15 +22,15 @@ export default function Modal(){
     modal.classList.remove('show');
     setTimeout(() => {
       modal.style.display = 'none'; // Hide the modal after the animation
-    }, 300); // Adjust the duration of the fade-out animation if needed
+    }, 1000); // Adjust the duration of the fade-out animation if needed
   };
 
   const searchParams = new URLSearchParams(document.location.search)
 
     return(
         <>
-          <div className="modal fade" role="dialog" tabIndex={-1} id="invite" onLoad={handleLoad}>
-            <div className="modal-dialog modal-dialog-centered modal-fullscreen modal-fullscreen-sm-down modal-fullscreen-md-down modal-fullscreen-lg-down modal-fullscreen-xl-down modal-fullscreen-xxl-down" style={{width:"100%"}} role="document">
+          <div className="modal fade" id="invite" onLoad={handleLoad}>
+            <div className="modal-dialog modal-dialog-centered modal-fullscreen" style={{width:"100%"}}>
               <div className="modal-content">
                 <div className="modal-body" style={{padding: '0px', backgroundImage: `url(${ModalBg})`, backgroundSize: 'cover', backgroundPosition: 'center',}}>
                   <div className="row d-flex flex-column mx-auto" style={{background: 'var(--bs-tertiary-color)', width: '100%', height: '100%'}}>
