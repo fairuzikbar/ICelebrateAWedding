@@ -172,11 +172,31 @@ export default function Greeting() {
                     </div>
                   </form>
                 </div>
+                <hr style={{ borderWidth: "1px", borderStyle: "solid" }} />
+                <div className="card-body p-sm-4 scroll-container">
+                  {showGreetings.length === 0 ? (
+                    <h5 className="text-center">Belum ada ucapan gaes</h5>
+                  ) : (
+                    <>
+                      {showGreetings.map((showGreeting) => (
+                        <Messages
+                          key={showGreeting.id}
+                          name={showGreeting.name}
+                          greetings={showGreeting.greetings}
+                          confirmation={showGreeting.confirmation}
+                          insert_date={moment(
+                            new Date(showGreeting.insert_date)
+                          ).fromNow()}
+                        />
+                      ))}
+                    </>
+                  )}
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="container position-relative">
+        {/* <div className="container position-relative">
           <h4
             className="fw-bold text-center mb-4"
             style={{ fontFamily: "Montserrat, sans-serif" }}
@@ -208,7 +228,7 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );

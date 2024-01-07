@@ -227,7 +227,7 @@ export default function BrideGroom() {
                 className="text-center"
                 style={{ fontFamily: "Montserrat, sans-serif" }}
               >
-                Putri dari <br /> Bapak Taroso & Ibu Windi Nurhayati
+                Putri Pertama dari <br /> Bapak Taroso & Ibu Windi Nurhayati
               </p>
             </div>
             <div className="col d-print-none d-sm-none d-md-none d-lg-none d-xl-none d-xxl-none">
@@ -258,7 +258,7 @@ export default function BrideGroom() {
                 className="text-center"
                 style={{ fontFamily: "Montserrat, sans-serif" }}
               >
-                Putra dari <br /> Bapak Winarno & Ibu Fathonah Budiasih
+                Putra Kedua dari <br /> Bapak Winarno & Ibu Fathonah Budiasih
               </p>
             </div>
           </div>

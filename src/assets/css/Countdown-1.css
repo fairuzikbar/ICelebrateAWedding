@@ -4,8 +4,8 @@
   width: 100px;
   padding: 15px 0;
   /* background: rgba(255, 255, 255, 0.12); */
-  background: rgb(255, 255, 255);
-  color: rgb(0,0,0);
+  /* background: rgb(255, 255, 255); */
+  color: rgb(255, 255, 255);
   /*border-top: 5px solid var(--bs-primary);*/
 }
 

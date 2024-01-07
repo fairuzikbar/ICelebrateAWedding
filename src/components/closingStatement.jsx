@@ -1,7 +1,4 @@
-import { supabaseClient } from "../api/supabaseClient";
 import React, { useState } from "react";
-import Swal from "sweetalert2";
-import withReactContent from "sweetalert2-react-content";
 
 export default function ClosingStatement() {
   return (
@@ -12,19 +9,22 @@ export default function ClosingStatement() {
       >
         <div className="container">
           <h1
-            className="fw-bold text-center"
+            className="fw-bold text-center pt-5"
             style={{
               textAlign: "center",
               fontFamily: "Montserrat, sans-serif",
             }}
           >
-            See You
+            Afra & Ikbar
           </h1>
           <p
             className="text-center"
-            style={{ fontFamily: "Montserrat, sans-serif" }}
+            style={{ fontFamily: "Montserrat, sans-serif", fontSize: "90%" }}
           >
-            Your presence and blessings will make our joy complete.
+            Merupakan sebuah kehormatan dan kebahagiaan bagi kami jika
+            Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu bagi
+            kami. Terima kasih. <br />
+            Wassalamu'alaikum Wr. Wb.
           </p>
           <div className="card">
             <svg

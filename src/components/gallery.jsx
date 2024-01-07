@@ -21,11 +21,9 @@ export default function Gallery() {
               </h1>
               <p
                 className="w-lg-50"
-                style={{ fontFamily: "Montserrat, sans-serif" }}
+                style={{ fontFamily: "Montserrat, sans-serif", fontSize:"90%" }}
               >
-                Momen, momen apa yang bikin pusing?
-                <br />
-                Momentum xixixi
+                Beberapa momen potret kebahagiaan kami
               </p>
             </div>
           </div>

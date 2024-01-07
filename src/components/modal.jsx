@@ -93,7 +93,7 @@ export default function Modal() {
                         fontFamily: "Montserrat, sans-serif",
                       }}
                     >
-                      Kepada Yth.
+                      Kepada Bapak/Ibu/Saudara/i
                     </p>
                     <p
                       className="fs-2 fw-semibold"

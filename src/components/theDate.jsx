@@ -48,9 +48,20 @@ export default function TheDate() {
                   style={{
                     textAlign: "center",
                     fontFamily: "Montserrat, sans-serif",
+                    marginBottom: "0px",
                   }}
                 >
-                  Penggarit, Taman, Pemalang
+                  Rumah Mempelai Wanita
+                </p>
+                <p
+                  style={{
+                    textAlign: "center",
+                    fontFamily: "Montserrat, sans-serif",
+                    fontSize: "90%",
+                  }}
+                >
+                  Desa Penggarit RT.002/RW.002 <br />
+                  Kecamatan Taman, Kabupaten Pemalang
                 </p>
               </fieldset>
             </div>
@@ -85,9 +96,20 @@ export default function TheDate() {
                   style={{
                     textAlign: "center",
                     fontFamily: "Montserrat, sans-serif",
+                    marginBottom: "0px",
                   }}
                 >
-                  Penggarit, Taman, Pemalang
+                  Rumah Mempelai Wanita
+                </p>
+                <p
+                  style={{
+                    textAlign: "center",
+                    fontFamily: "Montserrat, sans-serif",
+                    fontSize: "90%",
+                  }}
+                >
+                  Desa Penggarit RT.002/RW.002 <br />
+                  Kecamatan Taman, Kabupaten Pemalang
                 </p>
               </fieldset>
             </div>
@@ -95,7 +117,7 @@ export default function TheDate() {
           <iframe
             allowFullScreen
             loading="lazy"
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCM1VjClTYCj3Xf7hnOVOlmKaK9FHA1t6Q&q=Penggarit%2C+Taman&zoom=14"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1441.2948167051627!2d109.40922732694791!3d-6.944922086923921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fdd3d3a7cbd63%3A0xb0a5b7672eb765a5!2sAyam%20Bakar%20Nata%20(Mas%20Didit)!5e0!3m2!1sen!2sid!4v1704624830366!5m2!1sen!2sid"
             style={{
               maxHeight: "200px",
               paddingTop: "10px",
