@@ -3,7 +3,7 @@ export default function Footer() {
     <>
       <footer
         className="text-center pt-5"
-        style={{ paddingBottom: "100px", fontSize: "12px" }}
+        style={{ paddingBottom: "100px", fontSize: "14px" }}
       >
         <div className="container text-muted">
           <p
@@ -19,7 +19,7 @@ export default function Footer() {
             >
               @fairuzikbar
             </a>{" "}
-            | and supported by{" "}
+            and supported by{" "}
             <a
               href="https://instagram.com/pramaisiafra"
               type="button"
