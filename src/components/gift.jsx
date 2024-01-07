@@ -211,15 +211,11 @@ export default function Gift() {
                 <div>
                   <p
                     className="m-auto"
-                    style={{ fontFamily: "Montserrat, sans-serif" }}
-                  >
-                    <b>Miral Enam Residence</b>
-                  </p>
-                  <p
-                    className="m-auto"
                     id="send-gift"
                     style={{ fontFamily: "Montserrat, sans-serif" }}
                   >
+                    Miral Enam Residence D16
+                    <br />
                     Jl. Lobak, RT.04/RW.06,
                     <br />
                     Pd. Cabe Ilir, Kec. Pamulang,
