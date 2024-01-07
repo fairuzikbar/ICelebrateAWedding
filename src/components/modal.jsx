@@ -4,11 +4,10 @@ import ModalBg from "../assets/img/20230624_0002_01.jpg";
 export default function Modal() {
   useEffect(() => {
     if (document.readyState === "complete") {
-      handleLoad;
-      console.log("readySate");
+      handleLoad();
     } else {
-      window.addEventListener("load", handleLoad);
-      console.log("event here");
+      window.addEventListener('load', handleLoad);
+      return () => document.removeEventListener('load', handleLoad);
     }
     // window.addEventListener('load', handleLoad);
 
