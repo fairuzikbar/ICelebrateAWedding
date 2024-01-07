@@ -50,7 +50,7 @@ export default function Gift() {
         title: "Confirm to Us",
         html: `
           <a href="https://wa.me/628994513514?text=Halo%20Ikbar.%20Aku%20mau%20kirim%20hadiah%20ke%20rumah.%20Apakah%20bisa?" style="text-decoration: inherit;color: inherit;"><p>0899-4513-514 (Ikbar)</p><a/>
-          <a href="https://wa.me/6285155299609?text=Halo%Afra.%20Aku%20mau%20kirim%20hadiah%20ke%20rumah.%20Apakah%20bisa?" style="text-decoration: inherit;color: inherit;"><p>0851-5529-9609 (Afra)</p><a/>
+          <a href="https://wa.me/6285155299609?text=Halo%20Afra.%20Aku%20mau%20kirim%20hadiah%20ke%20rumah.%20Apakah%20bisa?" style="text-decoration: inherit;color: inherit;"><p>0851-5529-9609 (Afra)</p><a/>
         `,
         showCloseButton: true,
         focusConfirm: false,
