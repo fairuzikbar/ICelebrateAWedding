@@ -19,7 +19,7 @@ export default function Modal() {
   const handleLoad = () => {
     const modal = document.getElementById("invite");
     modal.classList.add("show");
-    console.log("harusnya show");
+    document.body.style.overflow = 'hidden';
     modal.style.display = "block";
   };
 
@@ -28,6 +28,7 @@ export default function Modal() {
   const closeModal = () => {
     const modal = document.getElementById("invite");
     modal.classList.remove("show");
+    document.body.style.overflow = 'unset';
     setTimeout(() => {
       modal.style.display = "none"; // Hide the modal after the animation
     }, 1000); // Adjust the duration of the fade-out animation if needed

@@ -6,16 +6,13 @@ import "moment/dist/locale/id";
 import Messages from "./message";
 
 export default function Greeting() {
-  // const supabaseClient = SupabaseClient;
   const [showGreetings, getGreetings] = useState([]);
-  // const [showCounts, getCounts] = useState([]);
   const [name, setName] = useState("");
   const [greets, setGreets] = useState("");
   const [confirmation, setConfirmation] = useState("");
 
   useEffect(() => {
     getGreeting();
-    // getCount();
   }, []);
 
   async function getGreeting() {
@@ -44,12 +41,6 @@ export default function Greeting() {
       supabaseClient.removeSubscription(chat_subscription);
     };
   }
-
-  // async function getCount() {
-  //   const { count } = await supabaseClient.from("chatbox")
-  //     .select('*', { count: 'exact', head: true })
-  //   getCounts(count);
-  // }
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -196,39 +187,6 @@ export default function Greeting() {
             </div>
           </div>
         </div>
-        {/* <div className="container position-relative">
-          <h4
-            className="fw-bold text-center mb-4"
-            style={{ fontFamily: "Montserrat, sans-serif" }}
-          >
-            Ucapan
-          </h4>
-          <div className="row d-flex justify-content-center">
-            <div className="col-12">
-              <div className="card mb-5 scroll-container">
-                <div className="card-body p-sm-5 ">
-                  {showGreetings.length === 0 ? (
-                    <h5 className="text-center">Belum ada ucapan gaes</h5>
-                  ) : (
-                    <>
-                      {showGreetings.map((showGreeting) => (
-                        <Messages
-                          key={showGreeting.id}
-                          name={showGreeting.name}
-                          greetings={showGreeting.greetings}
-                          confirmation={showGreeting.confirmation}
-                          insert_date={moment(
-                            new Date(showGreeting.insert_date)
-                          ).fromNow()}
-                        />
-                      ))}
-                    </>
-                  )}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </section>
     </>
   );

@@ -55,8 +55,6 @@ export default function Header() {
               >
                 <div
                   style={{
-                    // borderWidth: "1px",
-                    // borderStyle: "solid",
                     padding: "4px",
                   }}
                 >
@@ -67,8 +65,6 @@ export default function Header() {
                 </div>
                 <div
                   style={{
-                    // borderWidth: "1px",
-                    // borderStyle: "solid",
                     padding: "4px",
                   }}
                 >
@@ -81,8 +77,6 @@ export default function Header() {
                 </div>
                 <div
                   style={{
-                    // borderWidth: "1px",
-                    // borderStyle: "solid",
                     padding: "4px",
                   }}
                 >
@@ -95,8 +89,6 @@ export default function Header() {
                 </div>
                 <div
                   style={{
-                    // borderWidth: "1px",
-                    // borderStyle: "solid",
                     padding: "4px",
                   }}
                 >

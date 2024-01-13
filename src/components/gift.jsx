@@ -201,7 +201,7 @@ export default function Gift() {
                     width="30"
                     height="30"
                     fill="currentColor"
-                    class="bi bi-gift"
+                    className="bi bi-gift"
                     viewBox="0 0 16 16"
                     style={{ marginRight: "10px" }}
                   >
