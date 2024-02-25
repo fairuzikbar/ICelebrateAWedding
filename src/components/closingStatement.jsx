@@ -12,14 +12,14 @@ export default function ClosingStatement() {
             className="fw-bold text-center pt-5"
             style={{
               textAlign: "center",
-              fontFamily: "Montserrat, sans-serif",
+              fontFamily: "Allura, serif",
             }}
           >
             Afra & Ikbar
           </h1>
           <p
             className="text-center"
-            style={{ fontFamily: "Montserrat, sans-serif", fontSize: "90%" }}
+            style={{ fontFamily: "Josefin Sans, sans-serif", fontSize: "90%" }}
           >
             Merupakan sebuah kehormatan dan kebahagiaan bagi kami jika
             Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu bagi
@@ -48,9 +48,9 @@ export default function ClosingStatement() {
               <p
                 className="m-auto align-items-justify"
                 style={{
-                  fontFamily: "Montserrat, sans-serif",
+                  fontFamily: "Satisfy, sans-serif",
                   textAlign: "center",
-                  fontSize: "14px",
+                  fontSize: "15px",
                 }}
               >
                 Dan di antara tanda-tanda kekuasaan-Nya diciptakan-Nya untukmu
@@ -77,7 +77,7 @@ export default function ClosingStatement() {
             <p
               className="m-auto align-items-center"
               style={{
-                fontFamily: "Montserrat, sans-serif",
+                fontFamily: "Satisfy, sans-serif",
                 textAlign: "center",
                 paddingBottom: "10px",
               }}

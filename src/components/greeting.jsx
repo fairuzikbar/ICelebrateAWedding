@@ -71,7 +71,7 @@ export default function Greeting() {
         <div className="container position-relative">
           <h1
             className="fw-bold text-center mb-4"
-            style={{ fontFamily: "Montserrat, sans-serif" }}
+            style={{ fontFamily: "Josefin Sans, sans-serif" }}
           >
             Greetings
           </h1>
@@ -87,7 +87,7 @@ export default function Greeting() {
                         id="name"
                         name="name"
                         placeholder="Nama Anda"
-                        style={{ fontFamily: "Montserrat, sans-serif" }}
+                        style={{ fontFamily: "Josefin Sans, sans-serif" }}
                         required
                         value={name}
                         onChange={(e) => setName(e.target.value)}
@@ -100,7 +100,7 @@ export default function Greeting() {
                         name="message"
                         rows={6}
                         placeholder="Tuliskan ucapan dan doa"
-                        style={{ fontFamily: "Montserrat, sans-serif" }}
+                        style={{ fontFamily: "Josefin Sans, sans-serif" }}
                         required
                         value={greets}
                         onChange={(e) => setGreets(e.target.value)}
@@ -122,7 +122,7 @@ export default function Greeting() {
                             <label
                               className="form-check-label"
                               htmlFor="hadir"
-                              style={{ fontFamily: "Montserrat, sans-serif" }}
+                              style={{ fontFamily: "Josefin Sans, sans-serif" }}
                               name="confirmation"
                             >
                               Hadir
@@ -143,7 +143,7 @@ export default function Greeting() {
                             <label
                               className="form-check-label"
                               htmlFor="tidakHadir"
-                              style={{ fontFamily: "Montserrat, sans-serif" }}
+                              style={{ fontFamily: "Josefin Sans, sans-serif" }}
                               name="confirmation"
                             >
                               Tidak Hadir
@@ -156,7 +156,7 @@ export default function Greeting() {
                       <button
                         className="btn btn-dark d-block w-100"
                         type="submit"
-                        style={{ fontFamily: "Montserrat, sans-serif" }}
+                        style={{ fontFamily: "Josefin Sans, sans-serif" }}
                       >
                         Kirim
                       </button>

@@ -8,18 +8,41 @@ const Messages = (prop) => {
       <div>
         <div className="d-flex justify-content-between">
           <div>
-            <h6 className="mb-0" style={{ fontSize: "18px" }}>
+            <h6
+              className="mb-0"
+              style={{
+                fontSize: "18px",
+                fontFamily: "Josefin Sans, sans-serif",
+              }}
+            >
               {name}
             </h6>
-            <p style={{ fontWeight: "300", fontSize: "14px" }}>
+            <p
+              style={{
+                fontWeight: "300",
+                fontSize: "14px",
+                fontFamily: "Josefin Sans, sans-serif",
+              }}
+            >
               {confirmation}
             </p>
           </div>
           <div className="align-self-start">
-            <p style={{ fontWeight: "300", fontSize: "14px" }}>{insert_date}</p>
+            <p
+              style={{
+                fontWeight: "300",
+                fontSize: "14px",
+                fontFamily: "Josefin Sans, sans-serif",
+              }}
+            >
+              {insert_date}
+            </p>
           </div>
         </div>
-        <div className="text-greeting mt-2">
+        <div
+          className="text-greeting mt-2"
+          style={{ fontFamily: "Josefin Sans, sans-serif" }}
+        >
           <p>{greetings}</p>
         </div>
       </div>

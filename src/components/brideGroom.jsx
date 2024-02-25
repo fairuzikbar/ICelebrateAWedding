@@ -1,5 +1,5 @@
-import Afra from "../assets/img/20230624_0001_01.jpg";
-import Ikbar from "../assets/img/20230624_0007_01.jpg";
+import Afra from "../assets/img/DSC5492.JPG";
+import Ikbar from "../assets/img/DSC5487.JPG";
 
 export default function BrideGroom() {
   return (
@@ -190,15 +190,26 @@ export default function BrideGroom() {
           </div>
           <p
             className="d-flex justify-content-center"
-            style={{ fontFamily: "Montserrat, sans-serif" }}
+            style={{ fontFamily: "Josefin Sans, sans-serif" }}
           >
             Assalamu’alaikum Wr. Wb.
           </p>
+          <h3
+            className="text-center"
+            style={{
+              fontFamily: "Playfair Display, serif",
+              fontSize: "72px",
+              // marginTop: "16px",
+              marginBottom: "16px",
+            }}
+          >
+            A | I
+          </h3>
           <p
             className="text-center d-flex justify-content-center"
-            style={{ fontFamily: "Montserrat, sans-serif" }}
+            style={{ fontFamily: "Josefin Sans, sans-serif" }}
           >
-            Tanpa mengurangi rasa hormat. Kami mengundang Bapak/Ibu/Saudara/i
+            Tanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/i
             serta kerabat sekalian untuk menghadiri acara pernikahan kami:
           </p>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
@@ -215,7 +226,7 @@ export default function BrideGroom() {
               <p
                 className="text-center"
                 style={{
-                  fontFamily: "Sacramento, serif",
+                  fontFamily: "Cookie, serif",
                   fontSize: "36px",
                   marginTop: "16px",
                   marginBottom: "0px",
@@ -225,7 +236,7 @@ export default function BrideGroom() {
               </p>
               <p
                 className="text-center"
-                style={{ fontFamily: "Montserrat, sans-serif" }}
+                style={{ fontFamily: "Josefin Sans, sans-serif" }}
               >
                 Putri Pertama dari <br /> Bapak Taroso & Ibu Windi Nurhayati
               </p>
@@ -246,7 +257,7 @@ export default function BrideGroom() {
               <p
                 className="text-center"
                 style={{
-                  fontFamily: "Sacramento, serif",
+                  fontFamily: "Cookie, serif",
                   fontSize: "36px",
                   marginTop: "16px",
                   marginBottom: "0px",
@@ -256,7 +267,7 @@ export default function BrideGroom() {
               </p>
               <p
                 className="text-center"
-                style={{ fontFamily: "Montserrat, sans-serif" }}
+                style={{ fontFamily: "Josefin Sans, sans-serif" }}
               >
                 Putra Kedua dari <br /> Bapak Winarno & Ibu Fathonah Budiasih
               </p>

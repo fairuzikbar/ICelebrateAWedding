@@ -1,13 +1,13 @@
 import { useEffect } from "react";
-import ModalBg from "../assets/img/20230624_0002_01.jpg";
+import ModalBg from "../assets/img/DSC5498.JPG";
 
 export default function Modal() {
   useEffect(() => {
     if (document.readyState === "complete") {
       handleLoad();
     } else {
-      window.addEventListener('load', handleLoad);
-      return () => document.removeEventListener('load', handleLoad);
+      window.addEventListener("load", handleLoad);
+      return () => document.removeEventListener("load", handleLoad);
     }
     // window.addEventListener('load', handleLoad);
 
@@ -19,7 +19,7 @@ export default function Modal() {
   const handleLoad = () => {
     const modal = document.getElementById("invite");
     modal.classList.add("show");
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
     modal.style.display = "block";
   };
 
@@ -28,7 +28,7 @@ export default function Modal() {
   const closeModal = () => {
     const modal = document.getElementById("invite");
     modal.classList.remove("show");
-    document.body.style.overflow = 'unset';
+    document.body.style.overflow = "unset";
     setTimeout(() => {
       modal.style.display = "none"; // Hide the modal after the animation
     }, 1000); // Adjust the duration of the fade-out animation if needed
@@ -62,23 +62,22 @@ export default function Modal() {
                 }}
               >
                 <div className="col d-flex flex-column justify-content-center align-items-center">
-                  <h3
+                  <h6
                     style={{
                       textAlign: "center",
                       color: "var(--bs-body-bg)",
-                      fontFamily: "Montserrat, sans-serif",
+                      fontFamily: "Josefin Sans, sans-serif",
+                      // fontSize: "95%",
                     }}
                   >
-                    Undangan
-                    <br />
-                    Pernikahan
-                  </h3>
+                    Undangan Pernikahan
+                  </h6>
                   <h1
                     className="display-1 fw-normal"
                     style={{
                       color: "var(--bs-body-bg)",
                       textAlign: "center",
-                      fontFamily: "Sacramento, serif",
+                      fontFamily: "Allura, serif",
                     }}
                   >
                     Afra &amp; Ikbar
@@ -90,17 +89,17 @@ export default function Modal() {
                       style={{
                         textAlign: "center",
                         color: "var(--bs-body-bg)",
-                        fontFamily: "Montserrat, sans-serif",
+                        fontFamily: "Josefin Sans, sans-serif",
                       }}
                     >
-                      Kepada Bapak/Ibu/Saudara/i
+                      Kepada Yth.
                     </p>
                     <p
                       className="fs-2 fw-semibold"
                       style={{
                         textAlign: "center",
                         color: "var(--bs-body-bg)",
-                        fontFamily: "Montserrat, sans-serif",
+                        fontFamily: "Josefin Sans, sans-serif",
                       }}
                     >
                       {searchParams.get("to")}
@@ -109,7 +108,7 @@ export default function Modal() {
                       style={{
                         textAlign: "center",
                         color: "var(--bs-body-bg)",
-                        fontFamily: "Montserrat, sans-serif",
+                        fontFamily: "Josefin Sans, sans-serif",
                       }}
                     >
                       Kami mengundang Anda

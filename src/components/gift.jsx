@@ -20,6 +20,7 @@ export default function Gift() {
         html: `<input type="text" id="name" class="swal2-input" placeholder="Name">
         <input type="number" id="nominal" class="swal2-input" placeholder="0">`,
         confirmButtonText: "Confirm",
+        confirmButtonColor: "black",
         showCancelButton: true,
         focusConfirm: false,
         preConfirm: () => {
@@ -52,11 +53,9 @@ export default function Gift() {
           <a href="https://wa.me/628994513514?text=Halo%20Ikbar.%20Aku%20mau%20kirim%20hadiah%20ke%20rumah.%20Apakah%20bisa?" style="text-decoration: inherit;color: inherit;"><p>0899-4513-514 (Ikbar)</p><a/>
           <a href="https://wa.me/6285155299609?text=Halo%20Afra.%20Aku%20mau%20kirim%20hadiah%20ke%20rumah.%20Apakah%20bisa?" style="text-decoration: inherit;color: inherit;"><p>0851-5529-9609 (Afra)</p><a/>
         `,
-        showCloseButton: true,
+        confirmButtonColor: "black",
         focusConfirm: false,
-        confirmButtonText: `
-          Close
-        `,
+        confirmButtonText: "Close",
       });
       await navigator.clipboard.writeText(copyMe);
       // alert('Copied!');
@@ -77,16 +76,18 @@ export default function Gift() {
             className="fw-bold text-center"
             style={{
               textAlign: "center",
-              fontFamily: "Montserrat, sans-serif",
+              fontFamily: "Josefin Sans, sans-serif",
             }}
           >
             Wedding Gift
           </h1>
           <p
             className="text-center"
-            style={{ fontFamily: "Montserrat, sans-serif", fontSize: "90%" }}
+            style={{ fontFamily: "Josefin Sans, sans-serif", fontSize: "90%" }}
           >
-            Mohon konfirmasi pada form atau kontak yang telah kami sediakan
+            Apabila Anda hendak memberikan tanda kasih kepada kami, tanpa
+            mengurangi rasa hormat dapat disampaikan melalui media berikut.
+            Mohon konfirmasi pada form atau kontak yang telah kami sediakan.
           </p>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
             <div
@@ -103,16 +104,16 @@ export default function Gift() {
                   <div>
                     <p
                       className="m-auto"
-                      style={{ fontFamily: "Montserrat, sans-serif" }}
+                      style={{ fontFamily: "Josefin Sans, sans-serif" }}
                     >
                       a.n. Fairuz Ikbar Wikantyo
                     </p>
                     <p
                       className="m-auto"
                       id="payment-ikbar"
-                      style={{ fontFamily: "Montserrat, sans-serif" }}
+                      style={{ fontFamily: "Josefin Sans, sans-serif" }}
                     >
-                      1234 5678 90
+                      1760004247365
                     </p>
                   </div>
                   <svg
@@ -150,16 +151,16 @@ export default function Gift() {
                   <div>
                     <p
                       className="m-auto"
-                      style={{ fontFamily: "Montserrat, sans-serif" }}
+                      style={{ fontFamily: "Josefin Sans, sans-serif" }}
                     >
                       a.n. Pramaisi Afra Maulidita
                     </p>
                     <p
                       className="m-auto"
                       id="payment-afra"
-                      style={{ fontFamily: "Montserrat, sans-serif" }}
+                      style={{ fontFamily: "Josefin Sans, sans-serif" }}
                     >
-                      0987 6543 21
+                      010740021102277
                     </p>
                   </div>
                   <svg
@@ -212,17 +213,13 @@ export default function Gift() {
                   <p
                     className="m-auto"
                     id="send-gift"
-                    style={{ fontFamily: "Montserrat, sans-serif" }}
+                    style={{
+                      fontFamily: "Josefin Sans, sans-serif",
+                      width: "200px",
+                    }}
                   >
-                    Miral Enam Residence D16
-                    <br />
-                    Jl. Lobak, RT.04/RW.06,
-                    <br />
-                    Pd. Cabe Ilir, Kec. Pamulang,
-                    <br />
-                    Kota Tangerang Selatan,
-                    <br />
-                    Banten 15418
+                    Miral Enam Residence D16 Jl. Lobak, RT.04/RW.06, Pd. Cabe
+                    Ilir, Kec. Pamulang, Kota Tangerang Selatan, Banten 15418
                   </p>
                 </div>
                 <div>

@@ -1,10 +1,20 @@
-import Foto1 from "../assets/img/20230624_0010_01.jpg";
-import Foto2 from "../assets/img/20230624_0003_01.jpg";
-import Foto3 from "../assets/img/20230624_0005_01.jpg";
-import Foto4 from "../assets/img/20230624_0006_01.jpg";
-import Foto5 from "../assets/img/20230624_0008_01.jpg";
-import Foto6 from "../assets/img/20230624_0009_01.jpg";
 import React, { useState } from "react";
+
+// Brown Photo
+import Foto1 from "../assets/img/DSC5461.JPG";
+// import Foto2 from "../assets/img/DSC5472.JPG";
+// import Foto3 from "../assets/img/DSC5506.JPG";
+import Foto4 from "../assets/img/DSC5517.JPG";
+import Foto5 from "../assets/img/DSC5527.JPG";
+// import Foto6 from "../assets/img/DSC5526.JPG";
+
+// Circular Photo
+// import Foto1 from "../assets/img/DSC5530.JPG";
+import Foto2 from "../assets/img/DSC5531.JPG";
+import Foto3 from "../assets/img/DSC5532.JPG";
+// import Foto4 from "../assets/img/DSC5563.JPG";
+// import Foto5 from "../assets/img/DSC5567.JPG";
+import Foto6 from "../assets/img/DSC5570.JPG";
 
 export default function Gallery() {
   return (
@@ -15,13 +25,16 @@ export default function Gallery() {
             <div className="col-md-8 col-xl-6 text-center mx-auto">
               <h1
                 className="fw-bold text-center"
-                style={{ fontFamily: "Montserrat, sans-serif" }}
+                style={{ fontFamily: "Josefin Sans, sans-serif" }}
               >
                 Gallery
               </h1>
               <p
                 className="w-lg-50"
-                style={{ fontFamily: "Montserrat, sans-serif", fontSize:"90%" }}
+                style={{
+                  fontFamily: "Josefin Sans, sans-serif",
+                  fontSize: "90%",
+                }}
               >
                 Beberapa momen potret kebahagiaan kami
               </p>

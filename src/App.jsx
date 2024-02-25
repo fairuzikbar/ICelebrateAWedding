@@ -11,31 +11,12 @@ import Modal from "./components/modal";
 import PhotoSlider from "./components/photoSlider";
 import ClosingStatement from "./components/closingStatement";
 import Gift from "./components/gift";
+import InstaFilter from "./components/instaFilter";
 
 function App() {
   return (
     <>
       <Modal />
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Engagement&amp;display=swap"
-      ></link>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&amp;display=swap"
-      ></link>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Niconne&amp;display=swap"
-      ></link>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Sacramento&amp;display=swap"
-      ></link>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Sofia&amp;display=swap"
-      ></link>
       <link
         rel="stylesheet"
         href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"
@@ -56,6 +37,7 @@ function App() {
           <TheDate />
           <Gallery />
           <PhotoSlider />
+          <InstaFilter />
           <Gift />
           <Greeting />
           <ClosingStatement />

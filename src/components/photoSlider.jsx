@@ -4,12 +4,21 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../assets/css/styles.css";
 
-import Foto1 from "../assets/img/20230624_0010_01.jpg";
-import Foto2 from "../assets/img/20230624_0003_01.jpg";
-import Foto3 from "../assets/img/20230624_0005_01.jpg";
-import Foto4 from "../assets/img/20230624_0006_01.jpg";
-import Foto5 from "../assets/img/20230624_0008_01.jpg";
-import Foto6 from "../assets/img/20230624_0009_01.jpg";
+// Brown Photo
+// import Foto1 from "../assets/img/DSC5461.JPG";
+import Foto2 from "../assets/img/DSC5472.JPG";
+import Foto3 from "../assets/img/DSC5506.JPG";
+// import Foto4 from "../assets/img/DSC5517.JPG";
+// import Foto5 from "../assets/img/DSC5527.JPG";
+import Foto6 from "../assets/img/DSC5526.JPG";
+
+// Circular Photo
+import Foto1 from "../assets/img/DSC5530.JPG";
+// import Foto2 from "../assets/img/DSC5531.JPG";
+// import Foto3 from "../assets/img/DSC5532.JPG";
+import Foto4 from "../assets/img/DSC5563.JPG";
+import Foto5 from "../assets/img/DSC5567.JPG";
+// import Foto6 from "../assets/img/DSC5570.JPG";
 
 export default function PhotoSlider() {
   const settings = {
@@ -50,8 +59,8 @@ export default function PhotoSlider() {
       <Slider {...settings}>
         <img className="img-fluid img-slider" src={Foto1} />
         <img className="img-fluid img-slider" src={Foto2} />
-        <img className="img-fluid img-slider" src={Foto3} />
         <img className="img-fluid img-slider" src={Foto4} />
+        <img className="img-fluid img-slider" src={Foto3} />
         <img className="img-fluid img-slider" src={Foto5} />
         <img className="img-fluid img-slider" src={Foto6} />
       </Slider>

@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="container text-muted">
           <p
             className="mb-0 px-5"
-            style={{ fontFamily: "Montserrat, sans-serif" }}
+            style={{ fontFamily: "Josefin Sans, sans-serif" }}
           >
             made with ❤️ by{" "}
             <a

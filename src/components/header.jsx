@@ -1,4 +1,4 @@
-import Couple from "../assets/img/20230624_0011_01.jpg";
+import Couple from "../assets/img/DSC5480.JPG";
 import React, { useReducer } from "react";
 
 export default function Header() {
@@ -25,7 +25,7 @@ export default function Header() {
           <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
             <div className="col">
               <div className="d-flex flex-column align-items-center">
-                <p style={{ fontFamily: "Montserrat, sans-serif" }}>
+                <p style={{ fontFamily: "Josefin Sans, sans-serif" }}>
                   The Wedding Of
                 </p>
                 <img
@@ -39,7 +39,7 @@ export default function Header() {
                 />
                 <p
                   style={{
-                    fontFamily: "Sacramento, serif",
+                    fontFamily: "Allura, serif",
                     textAlign: "center",
                     fontSize: "46px",
                   }}
@@ -58,20 +58,20 @@ export default function Header() {
                     padding: "4px",
                   }}
                 >
-                  <h3 style={{ fontFamily: "Montserrat, sans-serif" }}>
+                  <h3 style={{ fontFamily: "Josefin Sans, sans-serif" }}>
                     {days}
                   </h3>
-                  <h4 style={{ fontFamily: "Montserrat, sans-serif" }}>Days</h4>
+                  <h4 style={{ fontFamily: "Josefin Sans, sans-serif" }}>Days</h4>
                 </div>
                 <div
                   style={{
                     padding: "4px",
                   }}
                 >
-                  <h3 style={{ fontFamily: "Montserrat, sans-serif" }}>
+                  <h3 style={{ fontFamily: "Josefin Sans, sans-serif" }}>
                     {hours}
                   </h3>
-                  <h4 style={{ fontFamily: "Montserrat, sans-serif" }}>
+                  <h4 style={{ fontFamily: "Josefin Sans, sans-serif" }}>
                     Hours
                   </h4>
                 </div>
@@ -80,10 +80,10 @@ export default function Header() {
                     padding: "4px",
                   }}
                 >
-                  <h3 style={{ fontFamily: "Montserrat, sans-serif" }}>
+                  <h3 style={{ fontFamily: "Josefin Sans, sans-serif" }}>
                     {minutes}
                   </h3>
-                  <h4 style={{ fontFamily: "Montserrat, sans-serif" }}>
+                  <h4 style={{ fontFamily: "Josefin Sans, sans-serif" }}>
                     Minutes
                   </h4>
                 </div>
@@ -92,10 +92,10 @@ export default function Header() {
                     padding: "4px",
                   }}
                 >
-                  <h3 style={{ fontFamily: "Montserrat, sans-serif" }}>
+                  <h3 style={{ fontFamily: "Josefin Sans, sans-serif" }}>
                     {seconds}
                   </h3>
-                  <h4 style={{ fontFamily: "Montserrat, sans-serif" }}>
+                  <h4 style={{ fontFamily: "Josefin Sans, sans-serif" }}>
                     Seconds
                   </h4>
                 </div>

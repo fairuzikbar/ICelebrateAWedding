@@ -11,7 +11,7 @@ export default function TheDate() {
             className="fw-bold text-center"
             style={{
               textAlign: "center",
-              fontFamily: "Montserrat, sans-serif",
+              fontFamily: "Josefin Sans, sans-serif",
             }}
           >
             Save the Date
@@ -28,7 +28,7 @@ export default function TheDate() {
                     width: "inherit",
                     marginRight: "5px",
                     marginLeft: "5px",
-                    fontFamily: "Montserrat, sans-serif",
+                    fontFamily: "Josefin Sans, sans-serif",
                   }}
                 >
                   Akad Nikah
@@ -37,26 +37,26 @@ export default function TheDate() {
                   className="fw-semibold mb-2"
                   style={{
                     textAlign: "center",
-                    fontFamily: "Montserrat, sans-serif",
+                    fontFamily: "Josefin Sans, sans-serif",
                   }}
                 >
-                  13 April 2024
+                  Sabtu, 13 April 2024
                   <br />
                   07.00 WIB - selesai
                 </h6>
                 <p
                   style={{
                     textAlign: "center",
-                    fontFamily: "Montserrat, sans-serif",
+                    fontFamily: "Josefin Sans, sans-serif",
                     marginBottom: "0px",
                   }}
                 >
-                  Rumah Mempelai Wanita
+                  Kediaman Mempelai Wanita
                 </p>
                 <p
                   style={{
                     textAlign: "center",
-                    fontFamily: "Montserrat, sans-serif",
+                    fontFamily: "Josefin Sans, sans-serif",
                     fontSize: "90%",
                   }}
                 >
@@ -76,7 +76,7 @@ export default function TheDate() {
                     width: "inherit",
                     marginRight: "5px",
                     marginLeft: "5px",
-                    fontFamily: "Montserrat, sans-serif",
+                    fontFamily: "Josefin Sans, sans-serif",
                   }}
                 >
                   Resepsi
@@ -85,26 +85,26 @@ export default function TheDate() {
                   className="fw-semibold mb-2"
                   style={{
                     textAlign: "center",
-                    fontFamily: "Montserrat, sans-serif",
+                    fontFamily: "Josefin Sans, sans-serif",
                   }}
                 >
-                  13 April 2024
+                  Sabtu, 13 April 2024
                   <br />
-                  11.00 WIB - selesai
+                  12.00 WIB - 15.00 WIB
                 </h6>
                 <p
                   style={{
                     textAlign: "center",
-                    fontFamily: "Montserrat, sans-serif",
+                    fontFamily: "Josefin Sans, sans-serif",
                     marginBottom: "0px",
                   }}
                 >
-                  Rumah Mempelai Wanita
+                  Kediaman Mempelai Wanita
                 </p>
                 <p
                   style={{
                     textAlign: "center",
-                    fontFamily: "Montserrat, sans-serif",
+                    fontFamily: "Josefin Sans, sans-serif",
                     fontSize: "90%",
                   }}
                 >
