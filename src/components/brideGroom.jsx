@@ -1,5 +1,5 @@
-import Afra from "../assets/img/DSC5492.JPG";
-import Ikbar from "../assets/img/DSC5487.JPG";
+import Afra from "../assets/img/DSC5492.jpg";
+import Ikbar from "../assets/img/DSC5487.jpg";
 
 export default function BrideGroom() {
   return (

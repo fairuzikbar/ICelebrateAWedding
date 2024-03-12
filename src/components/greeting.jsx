@@ -166,7 +166,14 @@ export default function Greeting() {
                 <hr style={{ borderWidth: "1px", borderStyle: "solid" }} />
                 <div className="card-body p-sm-4 scroll-container">
                   {showGreetings.length === 0 ? (
-                    <h5 className="text-center">Belum ada ucapan gaes</h5>
+                    <>
+                      <h5 className="text-center">Mohon Doa Restu</h5>
+                      <p className="text-center">
+                        Mohon sampaikan doa untuk kami
+                        <br />
+                        lewat chatbox berikut.<br/> Terima kasih.
+                      </p>
+                    </>
                   ) : (
                     <>
                       {showGreetings.map((showGreeting) => (
