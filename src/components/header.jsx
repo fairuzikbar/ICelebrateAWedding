@@ -1,4 +1,4 @@
-import Couple from "../assets/img/DSC5480.JPG";
+import Couple from "../assets/img/DSC5480.jpg";
 import React, { useReducer } from "react";
 
 export default function Header() {
@@ -61,7 +61,9 @@ export default function Header() {
                   <h3 style={{ fontFamily: "Josefin Sans, sans-serif" }}>
                     {days}
                   </h3>
-                  <h4 style={{ fontFamily: "Josefin Sans, sans-serif" }}>Days</h4>
+                  <h4 style={{ fontFamily: "Josefin Sans, sans-serif" }}>
+                    Days
+                  </h4>
                 </div>
                 <div
                   style={{
