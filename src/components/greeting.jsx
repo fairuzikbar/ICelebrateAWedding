@@ -118,6 +118,7 @@ export default function Greeting() {
                               value="Hadir"
                               checked={confirmation === "Hadir"}
                               onChange={(e) => setConfirmation(e.target.value)}
+                              required={true}
                             />
                             <label
                               className="form-check-label"
@@ -171,7 +172,8 @@ export default function Greeting() {
                       <p className="text-center">
                         Mohon sampaikan doa untuk kami
                         <br />
-                        lewat chatbox berikut.<br/> Terima kasih.
+                        lewat chatbox berikut.
+                        <br /> Terima kasih.
                       </p>
                     </>
                   ) : (
